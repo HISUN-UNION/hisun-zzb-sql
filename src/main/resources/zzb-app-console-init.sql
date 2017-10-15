@@ -131,7 +131,7 @@ CREATE TABLE `app_sh_a01` (
 DROP TABLE IF EXISTS `app_sh_a01_dascqk_tips`;
 CREATE TABLE `app_sh_a01_dascqk_tips` (
   `ID` varchar(32) NOT NULL,
-  `TIP` varchar(256) DEFAULT NULL,
+  `TIP` varchar(400) DEFAULT NULL,
   `app_sh_a01_dascqk_ID` varchar(32) NOT NULL,
   `create_user_id` varchar(32) DEFAULT NULL,
   `create_user_name` varchar(32) DEFAULT NULL,
